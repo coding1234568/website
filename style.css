@@ -1,0 +1,150 @@
+body {
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    display: none;
+}
+
+/* reusables */
+.constrain {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+.button-orange {
+    background-color: #ef6900;
+    color: white;
+}
+.button-orange:hover {
+    background-color: #eda36a;
+}
+.button-white {
+    background-color: white;
+    color: #ef6900;
+}
+.button-white:hover {
+    background-color: #eee;
+}
+.animal-reverse {
+    flex-direction: row-reverse;
+}
+/* header */
+.header {
+    background-color: #333333;
+}
+.header .constrain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header h1 {
+    margin: 0;
+    padding: 0;
+}
+.header nav ul {
+    display: flex;
+    list-style: none;
+}
+.header a {
+    color: #ccc;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    transition: color 0.3s;
+}
+.header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.header nav ul a {
+    margin-left: 20px;
+}
+
+/* articles */
+article .item1 {
+    width: 960px;
+    height: 600px;
+    background-image: url("cat.jpg");
+    background-position: top;
+    background-position: center;
+    color: white;
+}
+article .animal-text p {
+    margin-left: 500px;
+    line-height: 1.4;
+    padding-top: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+article .animal-text h1 {
+    font-size: 50px;
+    margin-left: 510px;
+    padding-top: 210px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article .animal-text a {
+    padding-top: 0px;
+    margin-left: 460px;
+    font-family: 'Roboto', sans-serif;
+}
+
+article .animal-text nav ul {
+    list-style: none;
+}
+
+article .animals {
+    padding-top: 100px;
+    display: flex;
+}
+article .animals-text {
+    color: #333333;
+    
+}
+
+article .animals-text h1 {
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 0px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+article .animals-text p {
+    font-size: 25px;
+    line-height: 1;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: -10px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.animals-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.animals-nav ul a {
+    margin-right: 30px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 15px;
+}
+.animals-image {
+    margin-left: 20px;
+}
+
+    
